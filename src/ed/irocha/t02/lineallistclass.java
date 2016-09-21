@@ -76,8 +76,8 @@ public class lineallistclass<T>{
             a = first; // se coloca el auxiliar al inicio de la lista
             b = first;
             while (a.data != data && a != null){ // mientras no encuetre el dato o no llega al final de la lista va a recorrer la lista
-                b = a;//el dato de a se guarda en b
-                a = a.next; // a se vuelve el siguiente para ir recorriendo la lista
+                b = a;//se le cambia el valor que tenia al valor de a para conservar el valor y no perderlo
+                a = a.next; // el auxiliar se igualara al siguiente asi tendra continuidad y se recorrera el arreglo
             }
             if(a == null){return false;} //significa que no lo  encontro
             else {

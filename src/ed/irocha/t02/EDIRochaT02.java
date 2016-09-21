@@ -23,7 +23,7 @@ public class EDIRochaT02 {
         list.insertfirst(62);
         list.insertfinal("chan chan channnn");
         list.showlist();
-        list.enode(7.7);
+        list.enode(7);
         list.showlist();
         // TODO code application logic here
     }
